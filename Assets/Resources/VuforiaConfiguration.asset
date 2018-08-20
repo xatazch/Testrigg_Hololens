@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: 
+  vuforia:
+    vuforiaLicenseKey: AX6qaSv/////AAABGT1p/IUmg0MKmUtA5BCQdJl43tzjXwEjj2h4nyw4sZMq2eeVqaeuJtrn6urSRYf8zGwQcWyDb8fLXo7YKwMWP32ypPteHy0I1pTw3DkQ7LS2i6XqoHhTY8ZXSE//uAlX4toK/XRAVUr/uH4KnG3b27RyYGFc2VYVgFI0zmT/SjqpQUoqR2TwIApVt8gzm1wrFVywmbETfEpmFKBQenRAkEi4Y/1NWIlhrY4A/lqDTK/9cKUkn0zoOpS+O7D82FcM17RpLG7R13JKBmDnwuYU0SO8uidLaF3Q7mwYwOC8nYM4+pUx4b6po/PGfb/JD0z+XLh4OhdKakSA6dcphe2Vi/hDg4cQY08zzmjn0WfU4RcJ
+    ufoLicenseKey: QVM5NG5ELy8vLy8vQUFBQUtKS1VNUjl5bGtrL3N4aSsyZDd2b1pjRHo3UDRMcjdSSE0xakJabGo1OFRvaUJEKzNFT2pnK0s4SlY2LzJldFluQnBzcFF5NW1sWU5zNnVDUllQOUJLWjB2bG9xTXdHTkJYbjB4STJHR3ZPSHFNVWJHN2dvVVpTRnlSVkpZNzZZbVFaOXZtV0IxU0UzUmdzZVErL2ZieEtRWHZkZFA4SGprdkxNWnNpeUVOWkJUa0RPazlpRTF2ams5S0czQThoRVY3Y1ZPa25VcVk5VlozUVR1RXhjMjM1RkpVenQva1JMaSt1T3RRR05FUVJUUjJ2cXk5eUErcHhubTRXeVRyOHN2V3ZUMlZWSXVrQTIxYTdBUVkwZEYwVjE4NUU1aE85YzZBaEU1eTkraURnUUd6SW5XZnF3cHlqTkRoZE1MV2RaVjJGczBnTjV4eDVDaDN0ajhZcklEa2dLc2Z6N0cwV3ZHK1RWeVk5c2NJckE=
+    delayedInitialization: 0
+    cameraDeviceModeSetting: -1
+    maxSimultaneousImageTargets: 1
+    maxSimultaneousObjectTargets: 1
+    useDelayedLoadingObjectTargets: 1
+    cameraDirection: 0
+    mirrorVideoBackground: 0
+  digitalEyewear:
+    cameraOffset: 0.06
+    distortionRenderingLayer: 31
+    eyewearType: 1
+    stereoFramework: 0
+    seeThroughConfiguration: 1
+    viewerName: Generic Cardboard
+    viewerManufacturer: Vuforia
+    useCustomViewer: 0
+    customViewer:
+      Version: 0
+      Name: 
+      Manufacturer: 
+      ButtonType: 0
+      ScreenToLensDistance: 0
+      InterLensDistance: 0
+      TrayAlignment: 0
+      LensCenterToTrayDistance: 0
+      DistortionCoefficients: {x: 0, y: 0}
+      FieldOfView: {x: 0, y: 0, z: 0, w: 0}
+      ContainsMagnet: 0
+  videoBackground:
+    clippingMode: 0
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 15311, guid: 0000000000000000f000000000000000,
+      type: 0}
+    matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
+    videoBackgroundEnabled: 1
+  deviceTracker:
+    autoInitTracker: 0
+    autoStartTracker: 0
+    trackingMode: 0
+    posePrediction: 0
+    modelCorrectionMode: 0
+    modelTransformEnabled: 0
+    modelTransform: {x: 0, y: 0.1, z: -0.1}
+  smartTerrain:
+    autoInitTracker: 0
+    autoStartTracker: 0
+  webcam:
+    deviceNameSetInEditor: C922 Pro Stream Webcam
+    flipHorizontally: 0
+    turnOffWebCam: 0
+    renderTextureLayer: 30
